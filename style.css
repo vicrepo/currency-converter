@@ -1,0 +1,89 @@
+
+html, body {
+	margin:0px;
+	padding:0px;
+	height: 100%;
+}
+
+#container {
+	width:100%;
+	height:100%;
+}
+
+.header {
+	width:100%;
+	height:100px;
+	background:black;	
+}
+
+.headertitle {
+	margin:auto;
+	text-align:center;
+	padding: 5px;
+	color:white;
+	font-family:verdana;
+}
+
+.frame {
+	width:850px;
+	height:200px;
+	padding:20px;
+	margin:20px auto;
+}
+
+.converter {
+	width:720px;
+	height:50px;
+	margin:auto;
+	padding:20px;
+	background:#EE8;
+}
+
+.converter input {
+	width:150px;
+	padding:2px 5px;
+	text-align:center;
+	font-size:24px;
+}
+
+.converter select {
+	padding:2px 5px;
+	font-size:24px;
+}
+
+.base {
+	display:inline-block;
+	width:260px;
+}
+
+#baseprice  {
+	display:inline-block;
+	width:10px;
+}
+
+.mid {
+	display:inline-block;
+	width:40px;
+	font-size:28px;
+	font-weight:bolder;
+	text-align:center;
+}
+
+.quote {
+	display:inline-block;
+	width:260px;
+}
+
+#quoteprice {
+	display:inline-block;
+	width:10px;
+}
+
+.btn {
+	display:inline-block;
+	width:50px;
+	text-align:center;
+}
+
+
+

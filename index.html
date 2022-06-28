@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Curruncy Converter</title>
+    <base target="_top">
+	<link rel="stylesheet" type="text/css" href="style.css">   
+</head>
+<body onload="getCurrencies()">
+<div id="container">
+	<div class="header">
+		<div class="headertitle">
+		<h1>Currency Converter</h1>
+		</div>
+	</div>
+
+	<div class="frame">
+	<div class="converter">
+	<div class="base">
+	<input id="baseval" type="number" min="0" step="1">
+	<select id="basecur" onchange="getdata(this)">
+	</select>
+	<input type="hidden" id = "baseprice">
+	</div>
+
+	<div class="mid">=</div>
+
+	<div class="quote">
+	<input id="quoteval" type="number" min="0" step="1">
+	<select id="quotecur" onchange="getdata(this)">
+	</select>
+	<input type="hidden" id = "quoteprice">
+	</div>
+	
+	<div class="btn">
+	<input id = "btn" type="button" value="Convert" onclick="convertCurrency()">
+	</div>
+	</div>
+	</div>
+</div>
+</body>
+<script src="./script.js"></script>
+</html>
